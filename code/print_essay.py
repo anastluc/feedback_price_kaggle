@@ -76,7 +76,7 @@ def print_essay_with_discource_highlighted(essay_id, legends=True, print_unlabel
 def print_random():
     df = read_training_frame()
     essay_id = df["id"].sample(1).values[0]
-    print(f"Printing essay {essay_id}\n")
+    print(f"Printing essay {essay_id} \n")
     return print_essay_with_discource_highlighted(essay_id, True, True)
 
 if __name__=="__main__":

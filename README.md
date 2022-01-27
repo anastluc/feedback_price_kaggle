@@ -18,3 +18,5 @@ cd code
 python print_essay.py --random
 python print_essay.py [essay_id]
 ```
+For example:
+![screenshot](screenshot.png "Visualising a random essay with discourse elements highlighted")
